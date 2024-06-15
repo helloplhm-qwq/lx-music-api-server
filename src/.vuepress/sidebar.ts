@@ -18,7 +18,7 @@ export default sidebar({
       link: "deploy/readme.md",
       children: [
         "deploy-windows.md",
-        "deploy-linuxordarwin.md",
+        "deploy-linux.md",
       ],
     },
     {

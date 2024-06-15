@@ -13,4 +13,4 @@ index: true
 ## 部署方法
 
 Windows请看：[Win](./deploy-windows.md)  
-Linux/MacOS请看：[Linux or Mac](deploy-linuxordarwin.md)
+Linux请看：[Linux](deploy-linux.md)
