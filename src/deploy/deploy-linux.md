@@ -2,11 +2,11 @@
 head:
   - - meta
     - name: keywords
-      content: Linux or MacOS部署教程
-title: Linux or MacOS部署教程
+      content: Linux
+title: Linux部署教程
 icon: fas fa-file-alt
 author: ikun0014
-date: 2024-04-10
+date: 2024-06-15
 index: false
 ---
 
@@ -43,10 +43,19 @@ pip3 install poetry
 poetry install
 ```
 :::
+
 5.启动服务器
+::: details 使用pip
 ``` bash
 python3 main.py
 ```
-如果屏幕上输出了监听IP:Port，那么恭喜您，部署已完成!:yum:
+:::  
 
-## Mac OS(待补充)
+::: details 使用poetry
+``` bash
+poetry shell
+python3 main.py
+```
+:::
+
+如果屏幕上输出了监听IP:Port，那么恭喜您，部署已完成!:yum:

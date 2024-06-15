@@ -6,7 +6,7 @@ head:
 title: Windows部署教程
 icon: fas fa-file-alt
 author: ikun0014
-date: 2024-04-10
+date: 2024-06-15
 index: false
 ---
 
@@ -44,7 +44,17 @@ poetry install
 :::
 
 5.启动服务器
+::: details 使用pip
 ``` bash
 python main.py
-```  
+```
+:::  
+
+::: details 使用poetry
+``` bash
+poetry shell
+python main.py
+```
+:::
+
 如果终端上出现监听IP:端口，那么恭喜您，您已经完成部署:yum:
