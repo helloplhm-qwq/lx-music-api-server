@@ -573,17 +573,17 @@ xmp = ["defusedxml"]
 
 [[package]]
 name = "pybind11"
-version = "2.12.0"
+version = "2.13.1"
 description = "Seamless operability between C++11 and Python"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 files = [
-    {file = "pybind11-2.12.0-py3-none-any.whl", hash = "sha256:df8d60b94f9e714d81013db233393d430ebf9f3551642b82291cf1b14d1afdbd"},
-    {file = "pybind11-2.12.0.tar.gz", hash = "sha256:5e3c557a84b06b969247630407fc4d985bed157b4253b13153b8e8e165e0c3dc"},
+    {file = "pybind11-2.13.1-py3-none-any.whl", hash = "sha256:97881536abe0cd4260a9ccc5bf6d1cf3113318f08af1feb82d4b9f95e93f0aa4"},
+    {file = "pybind11-2.13.1.tar.gz", hash = "sha256:65be498b1cac516161add1508e65375674916bebf2570d057dc9c3c7bcbbc7b0"},
 ]
 
 [package.extras]
-global = ["pybind11-global (==2.12.0)"]
+global = ["pybind11-global (==2.13.1)"]
 
 [[package]]
 name = "pycryptodome"
@@ -959,4 +959,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "e08fd578753a43577efe81f54cdc4003e99233e7927de2e3f51e860c591c1056"
+content-hash = "e36c444243b64434b6fd0e10b3168fb82c6cf99be3ebc5f3402dee24673e31fe"
